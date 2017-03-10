@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/app_background"
+    tools:context="com.example.happybirthdaycard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="fitCenter"
+        android:id="@+id/imageView1"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lots of Love..."
+        android:background="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@android:color/holo_red_light"
+        android:id="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Many more happy returns of the day!!"
+        android:background="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@android:color/holo_red_light"
+        android:id="@+id/textView1"
+         />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Somethings just get better with age.."
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView4"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/textView1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp" />
+
+</RelativeLayout>
